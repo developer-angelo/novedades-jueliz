@@ -39,6 +39,7 @@
               <p>
                 Detoxificante natural que elimina toxinas, mejora la digestión y optimiza hígado y riñones.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('Legacy Detox WU DTX')">Comprar</button>
             </div>
 
@@ -48,6 +49,7 @@
               <p>
                 Termogénico natural que acelera el metabolismo y quema grasa eficientemente.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('Wu Burner Fuegos')">Comprar</button>
             </div>
 
@@ -57,6 +59,7 @@
               <p>
                 Mezcla de superalimentos verdes que refuerza inmunidad, energía y digestión.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('Green Mix')">Comprar</button>
             </div>
 
@@ -66,6 +69,7 @@
               <p>
                 Suplemento para piel, cabello y uñas con colágeno de alta absorción.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('Avi Colágeno Hidrolizado')">Comprar</button>
             </div>
 
@@ -75,6 +79,7 @@
               <p>
                 Fórmula rica en hierro para combatir la anemia y mejorar hemoglobina.
               </p>
+              <p class="precio">S/210.00</p>
               <button class="button button-fill" onclick="comprar('AL-C para la Anemia')">Comprar</button>
             </div>
 
@@ -84,6 +89,7 @@
               <p>
                 Café funcional con ingredientes naturales que aportan energía y mejoran digestión.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('K-le Gold Café 9 en 1')">Comprar</button>
             </div>
 
@@ -93,6 +99,7 @@
               <p>
                 Energizante natural con camu camu y maca, sin efectos negativos en el sistema nervioso.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('Legacy Energy Drink (LED)')">Comprar</button>
             </div>
 
@@ -102,6 +109,7 @@
               <p>
                 Versión frutal del LED con sabor a maracuyá, ideal para energía prolongada.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('LED 2 Marcuyá')">Comprar</button>
             </div>
 
@@ -111,6 +119,7 @@
               <p>
                 Suplemento diseñado para mejorar el bienestar sexual y la vitalidad.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('RED Bienestar Sexual')">Comprar</button>
             </div>
 
@@ -120,6 +129,7 @@
               <p>
                 Bebida tipo café con beneficios energéticos y digestivos, ideal para el día a día.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('K-LE CCINO')">Comprar</button>
             </div>
 
@@ -129,6 +139,7 @@
               <p>
                 Nueva versión del energizante LED con fórmula mejorada y mayor potencia.
               </p>
+              <p class="precio">S/170.00</p>
               <button class="button button-fill" onclick="comprar('LED 3 Legacy')">Comprar</button>
             </div>
           </div>
@@ -140,21 +151,21 @@
   <div class="sheet-modal menu-modal">
     <div class="sheet-modal-inner">
       <div class="block" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 12px;">
-        <a onclick="closeMenu()" href="/home/" class="link">Inicio</a>
-        <a onclick="closeMenu()" href="/descuentos/" class="link">Descuentos</a>
-        <a onclick="closeMenu()" href="/about/" class="link">About</a>
+        <a style="font-size: 20px;" onclick="closeMenu()" href="/home/" class="link">Inicio</a>
+        <a style="font-size: 20px;" onclick="closeMenu()" href="/descuentos/" class="link">Descuentos</a>
+        <a style="font-size: 20px;" onclick="closeMenu()" href="/about/" class="link">About</a>
       </div>
       <i onclick="closeMenu()" class="fas fa-close"></i>
     </div>
   </div>
 
   <div class="sheet-modal shop-modal">
-    <div class="sheet-modal-inner">
-      <div class="block">
+    <div class="sheet-modal-inner" style="overflow-y: auto;">
+      <div class="block" style="overflow-y: auto;">
         <h2>Comprando Producto...!</h2>
-        <input style="margin-top: 10px !important; border: 1px solid #ccc !important;" type="text" name="nameProduct" id="nameProduct" placeholder="Nombre del Producto a comprar...">
-        <input style="margin-top: 10px !important; border: 1px solid #ccc !important;" type="text" name="msg" id="msgUser" placeholder="Tu mensaje aquí...">
-         <input style="margin-top: 10px !important; border: 1px solid #ccc !important;" type="text" name="contact" id="contact" placeholder="Tu numero o gmail...">
+        <input style="margin-top: 10px !important; border: 1px solid mediumpurple !important;" type="text" name="nameProduct" id="nameProduct" placeholder="Nombre del Producto a comprar...">
+        <input style="margin-top: 10px !important; border: 1px solid mediumpurple !important;" type="text" name="msg" id="msgUser" placeholder="Tu mensaje aquí...">
+         <input style="margin-top: 10px !important; border: 1px solid mediumpurple !important;" type="text" name="contact" id="contact" placeholder="Tu número o gmail...">
         <button style="margin-top: 20px !important;" onclick="compraEcha()" class="button button-fill">Comprar</button>
       </div>
       <i onclick="closeShop()" class="fas fa-close"></i>

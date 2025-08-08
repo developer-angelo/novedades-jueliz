@@ -40,6 +40,7 @@ function compraEcha() {
         ]
       })
   })
+    app.dialog.alert('Pedido en espera...Atento a su dato de Contacto!', 'Espera la respuesta!', () => {console.log('Éxito total en la compra!')})
   .then((response) => response.json())
   .then((data) => console.log(data));
 
