@@ -148,10 +148,23 @@
     </div>
   </div>
 
+  <div class="sheet-modal shop-modal">
+    <div class="sheet-modal-inner">
+      <div class="block">
+        <h2>Comprando Producto...!</h2>
+        <input style="margin-top: 10px !important; border: 1px solid #ccc !important;" type="text" name="nameProduct" id="nameProduct" placeholder="Nombre del Producto a comprar...">
+        <input style="margin-top: 10px !important; border: 1px solid #ccc !important;" type="text" name="msg" id="msgUser" placeholder="Tu mensaje aquí...">
+         <input style="margin-top: 10px !important; border: 1px solid #ccc !important;" type="text" name="contact" id="contact" placeholder="Tu numero o gmail...">
+        <button style="margin-top: 20px !important;" onclick="compraEcha()" class="button button-fill">Comprar</button>
+      </div>
+      <i onclick="closeShop()" class="fas fa-close"></i>
+    </div>
+  </div>
 
 
 
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.jsdelivr.net/npm/framework7@latest/js/framework7.bundle.min.js"></script>
   <script>
     const app = new Framework7( {

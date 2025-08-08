@@ -71,3 +71,9 @@ i.fa-arrow-down {
     box-shadow: 0 0 10px rgba(0, 0, 0, .4);
   }
 }
+
+#nameProduct, #msgUser, #contact {
+  width: 100%;
+  padding: 7px;
+  border-radius: 10px;
+}
